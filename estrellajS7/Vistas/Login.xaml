@@ -18,9 +18,9 @@
                 </Grid.ColumnDefinitions>
                 <Label Text="USUARIO" FontSize="20" Grid.Row="0" Grid.Column="0"/>
                 <Label Text="CONTRASEÑA" FontSize="20" Grid.Row="1" Grid.Column="0"/>
-                <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario" Grid.Row="0" Grid.Column="0"/>
+                <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario" Grid.Row="0" Grid.Column="1"/>
                 <Entry x:Name="txtContrasena" Placeholder="Ingrese Contraseña" Grid.Row="1" Grid.Column="1"/>
-                <Button x:Name="btnIniciar" Text="INICIAR SESSION" Clicked="btnIniciar_Clicked" Grid.Row="2" Grid.Column="0"/>
+                <Button x:Name="btnIniciar" Text="INICIAR SESSION" Clicked="btnIniciar_Clicked" Grid.Row="2" Grid.Column="2"/>
                 <Button x:Name="btnRegistro" Text="REGISTRO" Clicked="btnRegistro_Clicked" Grid.Row="2" Grid.Column="0"/>
 
             </Grid>
